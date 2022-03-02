@@ -3,6 +3,7 @@ import Image from 'next/image';
 import styles from '../styles/Home.module.scss';
 
 import Post from '../components/Post';
+import PostForm from '../components/PostForm';
 
 export default function Home() {
   return (
@@ -40,10 +41,7 @@ export default function Home() {
           </li>
         </ul>
 
-        <form action=''>
-          <textarea className={styles.formContent}></textarea>
-          <button className={styles.formButton}>Add New Post</button>
-        </form>
+        <PostForm />
       </main>
     </div>
   );
