@@ -15,6 +15,7 @@
     "next": "12.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
     "sass": "^1.49.9"
   },
   "devDependencies": {
@@ -25,12 +26,12 @@
     "@storybook/addon-links": "^6.4.19",
     "@storybook/preset-scss": "^1.0.3",
     "@storybook/react": "^6.4.19",
+    "@storybook/testing-library": "^0.0.9",
     "babel-loader": "^8.2.3",
     "css-loader": "^5.1.1",
     "eslint": "8.10.0",
     "eslint-config-next": "12.1.0",
     "sass-loader": "10.1.1",
-    "style-loader": "^2.0.0",
-    "@storybook/testing-library": "^0.0.9"
+    "style-loader": "^2.0.0"
   }
 }
