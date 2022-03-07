@@ -1,6 +1,6 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
-export default async (req, res) => {
+async function handler(req, res) {
   if (req.method === 'GET') {
     const response = await fetch(
       `https://api.airtable.com/v0/${process.env.AIRTABLE_BASE_ID}/Posts`,
@@ -64,4 +64,6 @@ export default async (req, res) => {
 
     res.status(201).json(response);
   }
-};
+}
+
+export default handler;
